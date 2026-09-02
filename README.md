@@ -2,6 +2,8 @@
 
 Custom Chat WebUI untuk local AI automation agents — PHP + vanilla JS, streaming SSE, upload gambar, session sidebar, terminal bridge (FastAPI WebSocket).
 
+![Screenshot](Screenshot.png)
+
 ## Struktur
 
 Repo ini **mirror web root**. Isi repo ditaruh di document root server, UI diakses lewat path `/c0n73xt/`:
