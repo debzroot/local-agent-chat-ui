@@ -1,0 +1,9 @@
+# Lindungi file config (berisi API key) dari akses langsung via browser (Apache).
+# Kalau pakai `php -S`, file ini diabaikan sama sekali — gak masalah.
+<FilesMatch "\.(ini|log|bak|env)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_env.c>
+    SetEnv no-gzip 1
+</IfModule>
