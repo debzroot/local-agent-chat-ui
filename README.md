@@ -2,7 +2,11 @@
 
 Custom Chat WebUI untuk local AI automation agents — PHP + vanilla JS, streaming SSE, upload gambar, session sidebar, terminal bridge (FastAPI WebSocket).
 
-![Screenshot](Screenshot.png)
+## Screenshot
+
+![UI Screenshot](docs/screenshot.webp)
+
+*(webp, ~53 KB — versi ringan dari screenshot asli)*
 
 ## Struktur
 
